@@ -1,0 +1,7 @@
+config:
+  
+-   name: builds/qiplatform/frontend-qi
+    build:
+    - work-dir: qiplatform/frontend-qi
+      dockerfile: qiplatform/frontend-qi/Dockerfile
+      image-name: frontend-qi
